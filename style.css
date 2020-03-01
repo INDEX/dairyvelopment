@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    overflow: auto;
+  }
+
+html {
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    height: 100vh;
+    text-align: center;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(233, 238, 232, 0.468),
+        rgba(109, 218, 182, 0.5)
+      ), url(img/hero.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    top: 0;
+}
+
+nav {
+    height: 10rem;
+    padding-top: 2rem;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
+
+h1,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 6rem;
+    margin: 10rem 0 10rem 0;
+    float: none;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 3rem;
+    float: left;
+    margin-left: 2rem;
+    border-left: 0.7rem solid red;
+    padding-left: 1rem;
+}
+
+/* hr {
+    margin: 0 auto;
+    border-top: 1px solid red;
+    width: 15rem;
+} */
+
+
+ul {
+    float: right;
+}
+
+li {
+    display: inline-block;
+    margin-right: 3rem;
+}
+
+li:hover {
+    transform: scale(1.5);
+    transition: transform 0.2s;
+}
+p .intro {
+    font-family: 'Caveat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+
+
+li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 2rem;
+}
+ .animated {
+     animation-duration: 2s;
+ }
+
+.ion-social-facebook {
+    color: #3b5998;
+}
+.ion-social-twitter {
+    color: #00aced;
+}
+.ion-social-youtube {
+    color: #bb0000;
+}
+
+.nav-icon {
+    font-size: 3rem;
+}
+
+.skills-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 10rem;
+}
+
+.skills {
+    height: 50rem;
+    width: 50rem;
+    background: linear-gradient(
+        to right bottom,
+        rgba(233, 238, 232, 0.468),
+        rgba(109, 218, 182, 0.5)
+      ); 
+      margin-top: 10rem;
+      border-radius: 2rem;
+      text-align: center;
+      padding: 3rem 2rem 0 2rem;
+}
+
+.skills:hover {
+    box-shadow: 0px 10px 10px 10px #ddd;
+    transform: translateY(-0.5rem);
+    transition: all 0.3s;
+
+}
+
+.skill-icon {
+    font-size: 10rem;
+}
+
+.skills p {
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-weight: 300;
+    line-height: 3rem;
+}
+
+button {
+    background-color: orange;
+    padding: 2rem;
+    border-radius: 10rem;
+    margin-top: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 1.4rem;
+}
+
+button:hover {
+    background-color: rgb(254, 184, 54);
+    cursor: pointer;
+    padding: 2rem 2.5rem;
+    transition: all 0.2s;
+}
+
+footer {
+    height: 10rem;
+    background: linear-gradient(
+        to right bottom,
+        rgba(233, 238, 232, 0.468),
+        rgba(109, 218, 182, 0.5)
+      );
+    font-weight: 300;
+    padding: 1rem 10rem;
+}
+
+footer p {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 1.5rem;
+}
+
+footer i {
+    margin-right: 1rem;
+    color: #333;
+}
+
+
+
